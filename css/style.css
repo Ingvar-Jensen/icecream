@@ -1,0 +1,466 @@
+@import url(https://fonts.googleapis.com/css?family=Changa+One);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+  	text-align: center;
+  	height:100%;
+  	width: ; 
+    background-color: #FDFDFD; 	
+}
+
+html {
+	height:100%; 
+}
+
+h1 {
+    font-size: 5em;
+    font-family: 'Chewy', cursive;
+    /*font-family: 'Pacifico', cursive;*/
+    color:#fff;
+    text-shadow: 1px 0px 0px #686868, 1px 1px 0px #686868, 0px 1px 0px #686868, 
+    -1px 1px 0px #686868, -1px 0px 0px #686868, -1px -1px 0px #686868, 
+    0px -1px 0px #686868, 1px -1px 0px #686868, 1px 4px 5px #aeaeae;
+}
+
+.lead {
+
+	/*font-family: 'Chewy', cursive;*/
+    font-family: 'Pacifico', cursive;
+	font-size: 3em;
+	color: #fff;
+	text-shadow: 1px 0px 0px #686868, 1px 1px 0px #686868, 0px 1px 0px #686868, 
+    -1px 1px 0px #686868, -1px 0px 0px #686868, -1px -1px 0px #686868, 
+    0px -1px 0px #686868, 1px -1px 0px #686868, 1px 4px 5px #aeaeae;
+}
+
+.one {
+    background: url(../img/ice/iceCream_low.jpg); 
+    background-size: cover;
+    padding-top: 10%;
+    background-position: 0 0;
+    min-height: 100%;
+    min-width: ;
+
+}
+.one h1 {
+    font-size: 5em;
+    font-family: 'Pacifico', cursive;
+    color:#fff;
+    text-shadow: 1px 0px 0px #686868, 1px 1px 0px #686868, 0px 1px 0px #686868, 
+    -1px 1px 0px #686868, -1px 0px 0px #686868, -1px -1px 0px #686868, 
+    0px -1px 0px #686868, 1px -1px 0px #686868, 1px 4px 5px #aeaeae;
+}
+.one .lead{
+
+    /*font-family: 'Chewy', cursive;*/
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    color: #E59BA1;
+    text-shadow: 1px 0px 0px #686868, 1px 1px 0px #686868, 0px 1px 0px #686868, 
+    -1px 1px 0px #686868, -1px 0px 0px #686868, -1px -1px 0px #686868, 
+    0px -1px 0px #686868, 1px -1px 0px #686868, 1px 4px 5px #aeaeae;
+}
+.one p.left{
+    margin-top:-15px;
+    text-align: left;
+    font-style: oblique;
+    max-width: 350px;
+    color:;
+}
+
+.two{
+    background: url(../img/whitedotsBlurry.png);
+    background-size: cover;
+    background-position: ;
+    padding-top: 13%;
+	min-height: 100% ;
+	background-color: #C6FDC6;
+	background-position: 0 0;    
+ 
+}
+
+.two .lead{
+    /*font-family: 'Pacifico', cursive;*/
+    font-family: 'Chewy', cursive;
+    font-size: 1.5em;
+    color: #fff;
+    text-shadow: 1px 0px 0px #686868, 1px 1px 0px #686868, 0px 1px 0px #686868, 
+    -1px 1px 0px #686868, -1px 0px 0px #686868, -1px -1px 0px #686868, 
+    0px -1px 0px #686868, 1px -1px 0px #686868, 1px 4px 5px #aeaeae;
+}
+.two .img-responsive{
+    max-height: 250px;
+    max-width: auto;
+}
+
+.three{
+    background: url(../img/background_ice.png);
+    background-size: 70%;
+/*    background: url(../img/bg_border_green.png);*/
+    background-position: ;
+    padding-top: 10%;
+    min-height: 100% ;
+    
+
+}
+
+.three h1{
+
+    font-size: 5em;
+    font-family: 'Chewy', cursive;
+    color:#C6FDC6;
+    text-shadow: 0 0 3px #000;
+    text-transform: uppercase;
+
+}
+
+.four{
+    min-height: 100%;
+    min-width: 100%;
+    padding-top: 2% ;
+    background-color: pink;
+    color:#FDFDFD;
+}
+
+#menu{
+    position:relative; 
+    width:100%; 
+    height:795px; 
+    margin-top: -60px; 
+
+    /*overflow: hidden;*/
+}
+
+#menu h1{
+    font-size: 3em;
+    font-family: 'Cabin Sketch', cursive;
+    color: #EFECEC;
+    text-shadow: 0px;
+    -webkit-transform: rotate(-4deg);
+    -moz-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+}
+
+
+#menu .background{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:915px;
+    background:url(../img/black_board2.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top:-35px;
+}
+
+#menu .board_container{
+    margin-top: 220px;
+    width:500px;
+    display: block; 
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+ 
+}
+
+#menu .board{
+    /**font-family: 'Rock Salt', cursive;*/
+    font-family: 'Cabin Sketch', cursive;
+    color: #EFECEC;
+    position:relative;
+    bottom: 150px; 
+    left:0;
+    width:100%; 
+    height:870px; 
+}
+
+#menu hr{
+    margin-top: 50px;
+    border: 0; 
+}
+
+#menu li{
+
+    font-size: 2.8em;
+    list-style-type: none;
+    padding-top:;
+}
+
+.five{
+   
+    background:url(../img/bg_border_pink_shadow.png) 50% 0, url(../img/background/look.png)  50% 100%;
+    background-repeat: no-repeat;
+    background-color: #F9FD8D;
+    padding-top: 20%;
+    min-height: 100% ;
+   
+}
+
+
+#menu .category{padding-left:100px; float: left;}
+ 
+
+.border1{
+    
+    background: url(../img/bg_border_green.png) no-repeat center top;
+}
+.border2{
+    
+    background: url(../img/bg_border_white.png) no-repeat center top;
+
+}
+
+video#bgvid {
+   position: fixed; ;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../img/background/ice/iceCream.jpg) no-repeat;
+    background-size: cover; 
+}
+
+.larger{
+    font-size: larger;
+}
+
+.map {
+    
+    -webkit-box-shadow: 0px 2px 29px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 29px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 29px -4px rgba(0,0,0,0.75);
+}
+
+/* NAVIGATION AND TOP BAR */
+
+.logo{
+    position: fixed;
+    display: block;
+    left:45%;
+    right: 50%;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top:;
+    width:220px;
+        -webkit-transition: all .55s;
+        -moz-transition: all .55s;
+        transition: all .55s;
+    z-index: 50;
+}
+
+.logo.affix {
+    
+    width:170px;
+    
+}
+
+nav{
+    font-family: 'Chewy', cursive;
+    background: url(../img/bg_border_white2.png) no-repeat center top;
+    height:182px;
+    position:fixed;
+    /*width:100%;*/
+    z-index: 100;
+    -webkit-transition: all .55s;
+    -moz-transition: all .55s;
+    transition: all .55s;
+
+
+}
+
+.navbar-default {
+    /*border-color: rgba(34,34,34,.05);
+    -webkit-transition: all .55s;
+    -moz-transition: all .55s;
+    transition: all .55s;*/
+    background-color: transparent;
+    border-bottom: 0px solid black;
+   
+}
+
+.navbar-default .navbar-brand {
+    color: #000;
+
+}
+
+.navbar-default .navbar-header  {
+
+
+}
+
+/*** Bootstrap branding removed for benefit of logo ***/
+/*
+.navbar-brand{
+	font-weight: 700;
+	color: #000;
+    font-family: 'Handlee', "Lucida Console", cursive;
+	
+}
+*/
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+    color: #f05f40;
+
+}
+
+.navbar-default .nav > li>a,
+.navbar-default .nav>li>a:focus {
+    
+    text-transform: ;
+    font-size: 1.8em;
+    color: #694343;
+    -webkit-transition: all .55s;
+    -moz-transition: all .55s;
+    transition: all .55s;
+}
+
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
+    color: #f05f40;
+
+}
+
+.navbar-default .nav > li.active>a,
+.navbar-default .nav>li.active>a:focus {
+    color: #f05f40;
+    background-color: transparent;
+    
+    
+}      
+
+
+/* MOBILE MENU -not finnished-  */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ccc;
+}
+.navbar-default.affix a:visited{
+        
+
+}
+
+
+/*** AFFIX STYLING ***/
+
+.navbar-default.affix {
+    background-color: transparent;
+        
+}
+
+.navbar-default.affix .navbar-header .navbar-brand {
+        /*font-size: 14px;*/
+    color: #694343;
+}
+
+.navbar-default.affix .navbar-header .navbar-brand:hover,
+.navbar-default.affix .navbar-header .navbar-brand:focus {
+    color:#000;
+}
+
+.navbar-default.affix .nav > li>a,
+.navbar-default.affix .nav>li>a:focus {
+    color: #222;
+    font-size: 1.4em;
+}
+
+.navbar-default.affix .nav > li>a:hover,
+.navbar-default.affix .nav>li>a:focus:hover {
+    color: #f05f40;
+
+}
+
+.navbar-default.affix .nav > li.active>a,
+.navbar-default.affix .nav>li.active>a:focus {
+    color: #f05f40;
+    background-color: transparent;
+        
+}    
+.navbar-default.affix a:visited{
+       
+}
+
+   /** Polaroid Images **/
+
+.polaroid-images
+{
+ /* let bootstrap do the placement */
+}
+ 
+.polaroid-images a
+{
+    
+    background: white;
+    display: ;
+    float: left;
+    margin: 0 15px 30px;
+    padding: 10px 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+    box-shadow: 0 4px 6px rgba(0,0,0,.3);
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    transition: all .15s linear;
+    z-index:0;
+    position: relative;
+
+}
+.polaroid-images a:after {
+    color: #333;
+    font-size: 20px;
+    content: attr(title);
+    position: relative;
+    top:15px;
+}
+.polaroid-images img {
+    display: block;
+    width: inherit;
+
+}
+
+.polaroid-images a:nth-child(2n)
+{
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    transform: rotate(4deg);
+}
+.polaroid-images a:nth-child(3n) {
+    -webkit-transform: rotate(-24deg);
+    -moz-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+}
+.polaroid-images a:nth-child(4n)
+{
+    -webkit-transform: rotate(14deg);
+    -moz-transform: rotate(14deg);
+    transform: rotate(14deg);
+}
+.polaroid-images a:nth-child(5n)
+{
+    -webkit-transform: rotate(-18deg);
+    -moz-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+}
+.polaroid-images a:hover{
+    cursor:zoom-in;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.6);
+    z-index:10;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+    box-shadow: 0 10px 20px rgba(0,0,0,.7);
+}
