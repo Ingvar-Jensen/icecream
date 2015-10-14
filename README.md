@@ -3,4 +3,4 @@
 ![ScreenShot](http://unofix.no/freetemplates/parallex/thumb.png)
 
 
-http://unofix.no/freetemplates/parallex/
+See the live website here: http://unofix.no/freetemplates/parallex/
